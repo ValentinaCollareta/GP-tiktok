@@ -238,6 +238,40 @@ header {
     font-weight: bold;
     color: #e33a11;
 }
+#h2-more {
+    font-size: 24px;
+    font-family: "Bitter", sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+.more-div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: #ebf5fc;
+}
+.more-category {
+    margin: 6px 0px 5px;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-family: "Bitter", sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    border-bottom: 2px solid #46a3e0;
+    text-transform: uppercase;
+    color: #46a3e0;
+}
+.more-category,.more-title {
+    text-decoration: none;
+}
+.more-title {
+    padding: 0px 8px 16px;
+    font-size: 16px;
+    font-family: "Bitter", sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+.more-title:visited {
+    color: black;
+}
 #back-to-top {
     display: grid;
     place-items: center;
