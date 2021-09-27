@@ -87,7 +87,9 @@ header {
     color: #637581;
 }
 #share {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 .share-logo {
     width: 50px;
